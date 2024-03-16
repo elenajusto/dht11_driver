@@ -22,9 +22,6 @@ int main(void){
 
     /* Main Program Loop */
     while (1){
-
-
-
     };
 
     return (0);
