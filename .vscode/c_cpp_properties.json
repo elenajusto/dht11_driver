@@ -1,0 +1,39 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/elenaj/utsma/dht11_driver/include",
+                "/home/elenaj/utsma/dht11_driver/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/elenaj/utsma/dht11_driver/include",
+                    "/home/elenaj/utsma/dht11_driver/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=64000000L",
+                "PLATFORMIO=60113",
+                "STM32G0xx",
+                "STM32G071xx",
+                ""
+            ],
+            "compilerPath": "/home/elenaj/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m0plus",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
