@@ -10,7 +10,8 @@
 /* Variables */
 
 /* Function Prototypes */
-
+void turnOnExternalLed();
+void listenForButtonPress();
 
 /* HAL Prototypes */
 static void MX_GPIO_Init(void);
@@ -24,7 +25,6 @@ int main(void){
 
     return (0);
 }
-
 
 /* GPIO Initialisation */
 static void MX_GPIO_Init(void)
@@ -45,4 +45,16 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+}
+
+/* Function Definitions */
+
+// Send a signal to a pin to turn on an external LED
+void turnOnExternalLed(){
+
+}
+
+// Listen for signals from a pin to detect button pushes
+void listenForButtonPress(){
+
 }
